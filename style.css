@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  --very-dark-violet: hsl(270, 9%, 17%);
+  --dark-violet: hsl(256, 26%, 20%);
+  --grayish-blue: hsl(216, 30%, 68%);
+}
+
+header {
+  background-color: white;
+  color: var(--very-dark-violet);
+  letter-spacing: 1px;
+}
+
+header a {
+  letter-spacing: 1px
+}
+
+.header-container {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header ul li {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+header ul li a {
+  color: var(--grayish-blue);
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: var(--dark-violet);
+}
+
+.plans {
+  margin-left: 25px;
+  color: var(--very-dark-violet);
+  padding: 8px 20px;
+  border: 2px solid var(--very-dark-violet);
+  letter-spacing: 1.4px;
+}
+
+.plans:hover {
+  color: white;
+  background-color: var(--very-dark-violet);
+  transition: ease-in-out 0.2s;
+}
+
+.logo {
+  color: var(--dark-violet);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.intro {
+  color: white;
+  background: var(--dark-violet);
+  padding-top: 100px
+}
+
+.intro-container {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-height: 480px;
+}
+
+.line {
+  width: 150px;
+  border-top: 1px solid white;
+}
+
+.intro-container .text {
+  width: 50%;
+}
+
+.intro-container .photo {
+  width: 50%;
+}
+
+.intro-container img {
+  width: 100%;
+}
+
+.intro-plans {
+  margin-left: 0;
+  color: var(--dark-violet);
+  border: 2px solid white;
+  color: white;
+  padding: 8px 20px;
+  letter-spacing: 1.4px;
+}
+
+.intro-plans:hover {
+  background: white;
+  color: var(--dark-violet);
+}
+
+.intro-container h1 {
+  font-size: 3.9rem;
+  font-weight: 500;
+  line-height: 4rem;
+  margin-top: 60px;
+}
+
+.intro-container p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px 0 40px;
+}
+
+
+/* Different */
+.different {
+  padding-top: 300px;
+}
+
+.different-container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.first-section,
+.second-section,
+.third-section {
+  flex-basis: 32%;
+}
+
+.advantages h3 {
+  margin: 30px 0 20px;
+  font-size: 1.4rem;
+  color: hsl(256, 26%, 20%)
+}
+
+.advantages p {
+  color: hsl(256, 15%, 45%);
+}
+
+.different .line {
+  border: 1px solid hsl(256, 15%, 45%);
+}
+
+.different h2 {
+  margin: 60px 0 80px;
+  font-size: 3.5rem;
+  color: hsl(256, 26%, 20%)
+}
+
+.dark-container {
+  background: hsl(256, 26%, 20%);
+  height: 240px;
+  margin-bottom: 150px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+
+.dark-container h2 {
+  color: white;
+  font-size: 2.8rem;
+  width: 55%;
+}
+
+footer {
+  padding: 60px 0;
+  background-color: hsla(0, 0%, 98%, 1);
+}
+
+.footer-container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid hsla(0, 0%, 87%, 1);
+}
+
+.footer-header ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer-header ul li {
+  margin-left: 15px;
+}
+
+.social-media ul img:hover {
+  scale: 1.3;
+}
+
+.footer-main {
+  padding-top: 40px;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  max-width: 85%;
+}
+
+.footer-sections ul {
+  margin-top: 30px;
+}
+
+.footer-sections ul li {
+  margin-top: 15px;
+}
+
+.footer-sections span {
+  font-weight: 600;
+  color: rgb(131, 131, 131);
+}
+
+.footer-sections ul li a {
+  color: var(--dark-violet);
+  font-weight: 600;
+}
+
+.footer-sections ul li a:hover {
+  text-decoration: underline;
+}
