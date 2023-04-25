@@ -276,6 +276,10 @@ ul li {
     max-width: calc(100% - 32px);
   }
 
+  .second-ul {
+    display: none;
+  }
+
   .intro {
     padding-top: 60px;
   }
@@ -347,6 +351,10 @@ ul li {
     padding-top: 100px;
   }
 
+  .second-ul {
+    display: none;
+  }
+
   .dark-container {
     height: 200px;
     margin-bottom: 50px;
@@ -364,6 +372,9 @@ ul li {
     letter-spacing: 0.5px;
   }
 
+  .second-ul {
+    display: none;
+  }
   .header-container {
     max-width: calc(100% - 32px);
   }
@@ -449,11 +460,144 @@ ul li {
 }
 
 @media (max-width: 569px) {
-  header ul {
+  .first-ul {
     display: none;
+  }
+
+  .second-ul {
+    display: none;
+    height: calc(100vh - 70px);
+    background-color: #2b282f;
+    padding-top: 50px;
+    letter-spacing: 3px;
+  }
+
+  .second-ul li {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .second-ul li a {
+    color: white;
+  }
+
+  .second-ul .plans {
+    margin-left: 0;
+    padding: 8px 30px;
+    border: 2px solid white;
+    letter-spacing: 3px;
   }
 
   .hamburger {
     display: block;
+  }
+
+  .intro {
+    padding-top: 10px;
+    padding-bottom: 80px;
+  }
+
+  .intro-container {
+    max-width: calc(100% - 32px);
+    justify-content: center;
+    max-height: 480px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .intro-container .text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .intro-container .photo {
+    display: none;
+  }
+
+  .intro-container p {
+    font-size: 17px;
+    margin: 25px 0 40px;
+  }
+
+  .different {
+    padding-top: 0;
+  }
+
+  .advantages {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  .first-section,
+  .second-section {
+    max-width: 80%;
+    margin-bottom: 40px;
+  }
+
+  .third-section {
+    max-width: 80%;
+  }
+
+  .advantages h3 {
+    margin: 15px 0 15px;
+  }
+
+  .different h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .dark-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dark-container h2 {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  .footer-sections {
+    max-width: 100%;
+    font-size: 12px;
+  }
+
+  .footer-sections ul {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer-header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-header ul {
+    margin-top: 20px;
+  }
+
+  .footer-sections {
+    flex-direction: column;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .fourth-section {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 3000px) {
+  .second-ul {
+    display: none;
   }
 }
