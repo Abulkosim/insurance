@@ -1,1 +1,1 @@
-Insurance Landing Page - a-insurance.netlify.app
+Insurance Landing Page - https://a-insurance.netlify.app
